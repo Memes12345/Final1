@@ -17,6 +17,7 @@ public class Skeleton2 {
 		String input5;
 		int input6;
 		int input7;
+		int input8;
 		String inputName;
 		
 		Scanner input = new Scanner(System.in);
@@ -50,8 +51,14 @@ public class Skeleton2 {
 						 + "\nSpeaking you say, You:I look for the Staff of the dead, \nMangkukulam:"
 						 + " It lies in the middle of the rocks of the lake. after hearing this you decide to look."
 						 + "\nYou see the rocks and the staff shining for no reason at the middle but there is what looks to be a siren also there. ");
+				 System.out.println("Buy something from Mangkukulam? Yes or No");
+			if (input7 == 1) {
+				System.out.println("");
+			}
 				 
 			 }
+			 
+			 
 			 else {
 				 System.out.println("Not a choice, Starting over." );
 			 	Dialog.text();}
