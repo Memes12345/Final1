@@ -16,7 +16,7 @@ public class Skeleton2 {
 		String input4;
 		String input5;
 		int input6;
-		int input7;
+		int input7 = 0;
 		int input8;
 		String inputName;
 		
@@ -52,16 +52,23 @@ public class Skeleton2 {
 						 + " It lies in the middle of the rocks of the lake. after hearing this you decide to look."
 						 + "\nYou see the rocks and the staff shining for no reason at the middle but there is what looks to be a siren also there. ");
 				 System.out.println("Buy something from Mangkukulam? Yes or No");
+				
 			if (input7 == 1) {
-				System.out.println("");
+				System.out.println("You choose to buy something from him, sadly he has nothing to buy but a string he hands to you");
+				
 			}
+			else if (input7 == 2) {
+				System.out.println("You choose to not buy something and walk away, but he still handed you  a string nothing special just a little yellow string. "); }
+				 
+			}
+			
 				 
 			 }
 			 
 			 
 			 else {
 				 System.out.println("Not a choice, Starting over." );
-			 	Dialog.text();}
+			 	Final.Dialog.text();}
 			
 		}
 		
