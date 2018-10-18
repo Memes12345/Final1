@@ -39,6 +39,7 @@ public class Skeleton1 {
 			{
 				System.out.println("You threaten the cool frog. You hold a sword up to it's neck. You look at it \nmenacingly in the eye. The cool frog swallows you whole. You died. Start "
 						+ "your \nadventure over.");
+				Final.Dialog.text();
 			}
 			
 			else if(input6 == 1)
@@ -70,6 +71,8 @@ public class Skeleton1 {
 					System.out.println("Now that you've got a new set of gear, it's time to head to the exit. Looks like it's conviently right up ahead.");
 					
 					System.out.println("\nCHAPTER 1 COMPLETE");
+					
+					finalChapter.SkeletonFinalChapter.text();
 				}
 				
 				else if(input7 == 2)
@@ -92,12 +95,15 @@ public class Skeleton1 {
 					System.out.println("Now that you've got a new set of gear, it's time to head to the exit. Looks like it's conviently right up ahead.");
 					
 					System.out.println("\nCHAPTER 1 COMPLETE");
+					
+					finalChapter.SkeletonFinalChapter.text();
 				}
 			}
 		}
 		
-		else
+		else if(input5.equalsIgnoreCase("No") || input5.equalsIgnoreCase("n"))
 			System.out.println("The cool frog hates you for ignoring it, and it tears you apart. You died. \nStart your adventure over.");
+		Final.Dialog.text();
 		
 	}
 
