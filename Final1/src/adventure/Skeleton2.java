@@ -18,6 +18,7 @@ public class Skeleton2 {
 		int input6;
 		int input7 = 0;
 		int input8;
+		int input1234 = 0;
 		String inputName;
 		
 		Scanner input = new Scanner(System.in);
@@ -54,13 +55,25 @@ public class Skeleton2 {
 				 System.out.println("Buy something from Mangkukulam? Yes or No");
 				
 			if (input7 == 1) {
-				System.out.println("You choose to buy something from him, sadly he has nothing to buy but a string he hands to you");
+				System.out.println("You choose to buy something from him, sadly he has nothing to buy but a string he hands to you."
+						+ "\nplease type 1234");
 				
 			}
 			else if (input7 == 2) {
-				System.out.println("You choose to not buy something and walk away, but he still handed you  a string nothing special just a little yellow string. "); }
+				System.out.println("You choose to not buy something and walk away, but he still handed you  a string nothing special just a little yellow string."
+						+ "\nplease type 1234. "); }
 				 
-			
+			if (input1234 == 1234) {
+				System.out.println("You make your way toward the  lake and you trip but insantly get back up."
+						+ "\nThe Mangkukulam screams at you. Mangkukulam:Be careful" +inputName+ "!!!");
+			    System.out.println("After walking to the beach of the lake which is just rocks."
+			    		+ "\nYou notice the boat that is docked and you you use to paddle to the island where the staff is and you get off."
+			    		+ "\nThe siren instantly goes to you and speaks. \nSiren: You must be " +inputName+ ", Come with me now.");  
+			    System.out.println("After walking with here and she brings you to the Staff as it shines in its glory");
+			    System.out.println("You grab the staff and it talks to you in your head."
+			    		+ "\nStaff:It was a trap goodbye my child" +inputName+ ". Siren:Your mistake wasing coming here and believing i was gonna allow you to take it."
+			    				+ "\nThe siren stabs you and you exhale one last time and drop the staff and fall, your eyes close slowly and you finally let go and you die never seeing true glory."); 
+			}
 			}
 			
 				 
