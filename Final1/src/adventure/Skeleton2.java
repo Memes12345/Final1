@@ -60,6 +60,7 @@ public class Skeleton2 {
 			else if (input7 == 2) {
 				System.out.println("You choose to not buy something and walk away, but he still handed you  a string nothing special just a little yellow string. "); }
 				 
+			
 			}
 			
 				 
@@ -74,4 +75,4 @@ public class Skeleton2 {
 		
 	}
 
-}
+
