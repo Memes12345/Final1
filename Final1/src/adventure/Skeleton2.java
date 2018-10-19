@@ -1,16 +1,14 @@
 package adventure;
 
-import java.util.Scanner;
-
 public class Skeleton2 {
 
 	public static void main(String[] args) {
-		
-		text();
+		// TODO Auto-generated method stub
 
 	}
-	
+
 	public static void text() {
+
 		
 		Scanner input = new Scanner(System.in);
 		
@@ -101,6 +99,7 @@ public class Skeleton2 {
 				}
 			}
 		}
+
 		
 		else if(input5.equalsIgnoreCase("No") || input5.equalsIgnoreCase("n"))
 			System.out.println("The cool frog hates you for ignoring it, and it tears you apart. You died. \nStart your adventure over.");
