@@ -33,7 +33,7 @@ public class Dialog {
 		
 		else if(input3 == 2)
 		{
-			adventure.Skeleton1.text();
+			adventure.Skeleton2.text();
 		}
 		
 		else
