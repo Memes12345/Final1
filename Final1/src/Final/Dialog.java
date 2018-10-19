@@ -36,6 +36,11 @@ public class Dialog {
 			adventure.Skeleton2.text();
 		}
 		
+		else if(input3 == 3)
+		{
+			adventure.Skeleton3.text();
+		}
+		
 		else
 			System.out.println("This skeleton does not exist in this realm. You died. Start your adventure over.");
 	}
