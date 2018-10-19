@@ -2,7 +2,7 @@ package finalChapter;
 
 import java.util.Scanner;
 
-public class SkeletonFinalChapter {
+public class SkeletonFinalChapter2 {
 
 	public static void main(String[] args) {
 		
@@ -28,7 +28,7 @@ public class SkeletonFinalChapter {
 				+ "starts soon. Perfect. Foolish mortals think that skeletons are just silly children \nin costumes during these times, but "
 				+ "little do they know that it is actually an army of undead skeletons \nready to start a siege on humanity. But first, "
 				+ "there's a few other things you must take care of first:");
-		System.out.println("\n1 - Find other useful weapons \n2 - Find healing items \n3 - Enhance stength with milk");
+		System.out.println("\n1 - Find other useful spells \n2 - Find healing items \n3 - Enhance stength with milk");
 		input8 = input.nextInt();
 		
 		if(input8 == 1)
@@ -63,7 +63,7 @@ public class SkeletonFinalChapter {
 		else if(input8 == 2)
 		{
 			choiceHealing(input11);
-			System.out.println("\n1 - Find other useful weapons \n2 - Enhance strength with milk");
+			System.out.println("\n1 - Find other useful spells \n2 - Enhance strength with milk");
 			input10 = input.nextInt();
 			
 			if(input10 == 1)
@@ -88,7 +88,7 @@ public class SkeletonFinalChapter {
 		else if(input8 == 3)
 		{
 			choiceMilk(input13, input14);
-			System.out.println("\n1 - Find other useful weapons \n2 - Find healing items");
+			System.out.println("\n1 - Find other useful spells \n2 - Find healing items");
 			input10 = input.nextInt();
 			
 			if(input10 == 1)
@@ -115,7 +115,7 @@ public class SkeletonFinalChapter {
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("So you need weapons other than a sword. Considering the merchant is out of stock, you'll have to find "
+		System.out.println("So you need spells other than what you have now. Considering the merchant is out of stock, you'll have to find "
 				+ "\nsomething on your own. There's a special grave up ahead, maybe it has something of use.");
 		System.out.println("\nRaid the grave? \n \nYes \nNo");
 		input9 = input.next();
@@ -123,7 +123,7 @@ public class SkeletonFinalChapter {
 		if(input9.equalsIgnoreCase("Yes") || input9.equalsIgnoreCase("y"))
 		{
 			System.out.println("You decide to raid the grave. You've disturbed the spirit of that grave, and you feel uneasy. You "
-					+ "realize that was actually \nElvis Presley's grave. He decides that you disrupted him and is punishable by death. "
+					+ "realize that was actually \nMichael Jackson's grave. He decides that you disrupted him and is punishable by death. "
 					+ "You die on the \nspot, just from him looking at you. You died. Start your adventure over.");
 			Final.Dialog.text();
 		}
@@ -131,8 +131,8 @@ public class SkeletonFinalChapter {
 		else if(input9.equalsIgnoreCase("No") || input9.equalsIgnoreCase("n"))
 		{
 			System.out.println("You decide not to disrupt the dead. A good decision on your part. Luckily though, there are convient "
-					+ "\ndaggers right by the grave that don't belong to anybody. You decide to pick them up. Now that you have \nanother "
-					+ "type of weapon, it's time to gather the other things:");
+					+ "\nspell papers right by the grave that don't belong to anybody. You decide to pick them up. Now that you have \nanother "
+					+ "type of spell, it's time to gather the other things:");
 	}
 
 	}
@@ -214,7 +214,7 @@ public class SkeletonFinalChapter {
 			{
 				System.out.println("You decide to steal the milk. Immoral? Yes. Worth it? Yes. You stuff the milk inside your ribcage. It \nbasically functions as a "
 						+ "giant pocket. You bolt out of the front door, and back to the graveyard as \nfast as you can. You made it, and it's highly unlikely you'll "
-						+ "caught, because you highly doubt the \npolice will believe a walking skeleton covered in armor and wielding a sword broke into a gas station "
+						+ "caught, because you highly doubt the \npolice will believe a walking skeleton covered in a wizard costume and wielding a staff broke into a gas station "
 						+ "\nand stole milk.");
 		
 	}
@@ -243,7 +243,7 @@ public class SkeletonFinalChapter {
 			System.out.println(inputName + ": Trick-or-treat!");
 			System.out.println("When they hand you a piece candy, you realize that their dog has run out of the door and is biting you. \nYou shoo the dog away. It continues to bite. You "
 					+ "also realize your mask has fallen off and now the \nhuman sees you are a real skeleton. It's not worth trying to conceal yourself now. You go on a rampage, \nand a "
-					+ "legion of skeletons arrise from the graveyard to rage war. The human population declined severely \nthat day. Once the night was done, the skeletons go back to the "
+					+ "you curse all humans with the greatest of spells. The human population declined severely \nthat day. Once the night was done, the skeletons go back to the "
 					+ "graveyard to celebrate. \n \nUntil next year, " + inputName);
 			System.out.println("					THE END");
 			
